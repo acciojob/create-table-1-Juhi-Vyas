@@ -10,7 +10,8 @@ function insert_Row() {
 	td1.innerText = "New Cell1"
 	td2.innerText = "New Cell2"
 
-	tr.append(td1,td2)
+	tr.appendChild(td1)
+	tr.appendChild(td2)
 
 	// table.append(tr)
 

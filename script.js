@@ -1,4 +1,4 @@
-let table = document.querySelector("#sampleTable")
+let table = document.querySelector("#sampleTable tbody")
 // let tr = document.querySelector("tr")
 
 function insert_Row() {
@@ -12,8 +12,6 @@ function insert_Row() {
 
 	tr.appendChild(td1)
 	tr.appendChild(td2)
-
-	// table.append(tr)
 
 	table.insertAdjacentElement("afterbegin", tr)
 
